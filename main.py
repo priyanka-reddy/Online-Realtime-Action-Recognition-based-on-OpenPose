@@ -72,6 +72,8 @@ while cv.waitKey(1) < 0:
         # joints_norm_per_frame = np.array(pose[-1]).astype(np.str)
         # f.write(' '.join(joints_norm_per_frame))
         # f.write('\n')
+    else:
+        break
 
 video_writer.release()
 cap.release()
