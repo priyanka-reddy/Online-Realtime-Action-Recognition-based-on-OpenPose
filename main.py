@@ -66,7 +66,7 @@ while cv.waitKey(1) < 0:
         cv.putText(show, time_frame_label, (5, height-15), cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
 
         cv.imshow('Action Recognition based on OpenPose', show)
-        video_writer.write(show)
+        #video_writer.write(show)
 
         # # 采集数据，用于训练过程(for training)
         # joints_norm_per_frame = np.array(pose[-1]).astype(np.str)
