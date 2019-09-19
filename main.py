@@ -65,7 +65,7 @@ while cv.waitKey(1) < 0:
         time_frame_label = '[Time:{0:.2f} | Frame:{1}]'.format(run_time, frame_count)
         cv.putText(show, time_frame_label, (5, height-15), cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
 
-        cv.imshow('Action Recognition based on OpenPose', show)
+        #cv.imshow('Action Recognition based on OpenPose', show)
         #video_writer.write(show)
 
         # # 采集数据，用于训练过程(for training)
